@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDS</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="NDSproj.css">
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            <div class="nds-icon">
+                
+                <a href="#">NDS</a>
+            </div>
+            <div class="hamburger">
+                <i class="ri-menu-fill"></i>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="left-container">
+                <div class="social-media">
+                    <i id="yt" class="ri-youtube-line"></i>
+                    <i id="insta" class="ri-instagram-line"></i>
+                    <i id="fb" class="ri-facebook-circle-line"></i>
+                    <i id="wts" class="ri-whatsapp-line"></i>
+                </div>
+            </div>
+            <div class="right-container">
+                <h1>Let me <span>capture</span><br>your unique <span>love story.</span></h1>
+                <div class="nds-mark">
+                    <div class="line1"></div>
+                    <p>NIGHT DREAM STUDIO</p>
+                    <div class="line2"></div>
+             </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function () {
+            navBar = document.querySelector(".navbar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+
+</html>
